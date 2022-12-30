@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form5</title>
+</head>
+
+<body style="padding-left: 300px;
+ padding-right: 300px;
+ padding-top: 100px;
+ padding-bottom: 100px;
+ background-image:url(triamn2.jpg);
+background-size: cover;
+background-repeat: no-repeat;">
+    <fieldset style="border-radius: 30px;background-color: rgb(214, 139, 235);">
+    <center> <legend>
+            <h1>   <u> Account Registration Form</u></h1>
+        </legend></center>
+        <form style="padding-left: 100px; ">
+            <label for="Sn">Student Name:</label>
+            <input type="text" id="Sn" name="student name" placeholder="abcd" value="aditya" required>
+            <br><br>
+            <label for="Fn">Father Name:</label>
+            <input type="text" id="Fn" name="Father Name" placeholder="xyz" value="daharwal" required>
+            <br><br>
+            <label for="Bd">Date of Birth:</label>
+            <input type="date" id="Bd" name="birth date" placeholder="2022-12-29" value="2022-12-28" required>
+            <br><br>
+            <label for="mno">Mobile Number:</label>
+            <input type="number" id="mno" name="Mobile" placeholder="6788988967" size="10" value="9876543210" required>
+            <br><br>
+            <label for="ladd">Local Address:</label><br>
+            <textarea id="ladd" name="address" placeholder="xffggjh,Nagpur,india" value="sci city, Nagpur,India"
+                required></textarea><br><br>
+            <label for="padd">Permanent Address:</label><br>
+            <textarea id="padd" name="address" placeholder="xffggjh,Nagpur,india" value="sci city, Nagpur,India"
+                required></textarea>
+            <br><br>
+            <label for="religion"> Choose Religion:</label>
+            <select id="religion" name="religion">
+                <option selected>Hindu</option>
+                <option>Muslim</option>
+                <option>Sikh</option>
+                <option>Jain</option>
+                <option>Christian</option>
+                <option>Secular</option>
+            </select><br><br>
+            <label for="DC">Name on debit Card:</label>
+            <input type="text" id="DC" name="debitcard" placeholder="wrtr jobs" value="steve jobs" required>
+            <br><br>
+            <label for="cardno">Debit Card number:</label>
+            <input type="number" id="cardno" name="card no" placeholder="134364675685" value="876543252678" required>
+            <br><br>
+            <label for="CVV">CVV:</label>
+            <input type="number" id="CVV" name="CVV" placeholder="234" value="876" size="3" required>
+            <br><br>
+            <label for="color">Your Favorite color:</label>
+            <input type="color" id="color" name="color" placeholder="red" value="orange" required><br><br>
+            <label>Your Favorite Food</label><br><br>
+            <input type="checkbox" id="favfood" name="ff" value="dosa" checked>dosa<br>
+            <input type="checkbox" id="favfood" name="ff" value="roti" checked>roti<br>
+            <input type="checkbox" id="favfood" name="ff" value="Sambar">Sambar<br>
+            <input type="checkbox" id="favfood" name="ff" value="icecream">Icecream<br><br>
+            <br><br>
+            <label for="User">USER profile</label>
+            <input type="file" id="User" name="User">
+            <br><br>
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="email" placeholder="email@joga.ted" value="joka@gmail.com"
+                required><br><br>
+            <label>Your Favorite Car:</label><br>
+            <label for="car1">Audi</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="car1" name="car" value=""><br>
+            <label for="car2">Marsides</label>
+            <input type="checkbox" id="car2" name="car" value="" ><br>
+            <label for="car3">XUY400</label>
+            <input type="checkbox" id="car3" name="car3" value="" checked><br>
+
+            <label for="feedback">Leave you feedback</label><br>
+            <textarea id="feedback" name="feedback" placeholder="leave feedback"
+                value="your done it "></textarea><br><br>
+            <label for="coun">Country</label>
+            <input type="text" name="country" placeholder="India" readonly required id="coun"><br><br>
+            <label for="state">State</label>
+            <input type="text" placeholder="maharasthra" required id="state"
+                disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" value="submit">
+        </form>
+    </fieldset>
+</body>
+
+</html>
